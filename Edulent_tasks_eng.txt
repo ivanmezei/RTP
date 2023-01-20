@@ -1,0 +1,18 @@
+0. Two numbers NUM1 and NUM2 are given in DATA section. Compare them and assign the following values to the variable COMP defined also in DATA section. 1 if NUM1>NUM2, 0 if NUM1=NUM2 and 0xFF if NUM1<NUM2.
+1. Write an assembly code fragment in which a variable NUMBER is incremented in a loop with 100 iterations.
+2. Write an assembly code fragment in which a variable NUMBER is incremented in two nested loops, where each has 10 iterations (100 iterations in total).
+3. Write a program which sums 4 variables NUM1, NUM2, NUM3 and NUM4 given in DATA section. Summation result does not need to fit within a single byte, so please take care about the Carry flag.
+4. Write a program which calculates a multiplication of two variables VAR1 and VAR2, given in DATA section.
+5. Two digit decimal number is defined through two variables DIG10 and DIG9 in DATA section (for example, DIG10 = 3 and DIG1 = 9). Based on values from DIG10 and DIG1 form a value of a single-byte variable VAL (for example from before, VAL should be 39).
+6. Write an assembly program which performs a summation of two 2-digit decimal numbers. Numbers for summation are provided through arrays NUM1 and NUM2, where both arrays have two elements which represent digits of a given number (4 bytes in total for both NUM1 and NUM2).
+7. VAR is a variable given in DATA section. Write an assembly program which returns:
+	a) a number of 1s in a binary representation of VAR
+	b) a number of 0s in a binary represantation of VAR
+8. Write a program which moves elements from 4-byte array ARR1 into 4-byte array ARR2.
+9. Let ARR be an array with 8 elements, where each element represents a single bit of the 8-bit binary number (hence each element of ARR is either 1 or 0). Write a program which calculates the decimal value of that number and stores the calculated result into a variable RES in DATA section. 
+10. Array is given in DATA section. Solution must be realized in loop.
+	a) Count the non-zero elements.
+	b) Count zero elements
+	c) Count odd elements
+	d) Count even elements
+	e) ...

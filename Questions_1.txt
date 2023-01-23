@@ -1,0 +1,53 @@
+Real-time programming
+
+Lecture questions Part1
+
+L0 Introduction
+
+1. Explain basic blocks of Von Neumann model of microcomputer.
+2. What additional components are present in microntrollers and embedded systems compared to Von Neumann model?
+3. Explain microcomputer architectures based on memory organization.
+4. CISC vs RISC. Explain both and compare.
+
+L1 Architecture basics
+
+1. Name and briefly describe hardware components of CPU.
+2. What is memory hierarchy and how is it influenced by different memory technologies?
+3. What is temporal and what is spatial locality? Why is it important with respect to a memory hierarchy?
+4. What types of registers exist? Explain the purpose of PC, IR, SP and SR(PSW).
+5. Let A=0x9A and B=0x4C. After addition of A and B, calculate C (carry), N (negative), Z(zero), V(oVerflaw) flags.
+6. What is stack and how is it used? Provide simple example.
+7. What is control unit (CU) and what implementation of CU exist? Briefly describe each of them.
+8. What is the basic instruction execution cycle? Show diagram of the fetch execute cycle with and without the interrupt subsystem present.
+
+L2 Arduino intro
+
+1. Why is Arduino successful mashup?
+2. Name at least 4 alternative functions of pins.
+3. Explain the purpose and functioning of the bootloader.
+4. List the inside hardware modules of ATMega328p.
+5. Explain the purpose of setup() and loop() functions in Arduino IDE.
+
+L3 ATMega328p internals
+
+1. ATMega328p memories (which kind, capacity, purpose).
+2. ATMega328p ports (names, widths, purpose).
+3. Which SFRs are used for working with I/O ports?
+4. Explain IN/OUT GPIO sheme.
+5. Which serial communication modules are available in ATMega328p, and what protocols are used?
+6. Explain PWM (timing, purpose, usage examples).
+7. Successive aproximation register A/D conversion (simplified block sheme and explanation of functioning)
+
+L4 Peripherals
+
+1. Name ways to connect peripherals with microcontrollers.
+2. Direct interfacing (pros/cons, examples).
+3. Explain increasing fan-out by buffers.
+4. Explain current/voltage shock protection by buffers.
+5. Explain temporarily memorization of, e.g. addresses, using buffers.
+6. Explain different classes of buffers.
+7. Explain time multiplexing and give an example.
+8. External memory interfacing.
+9. Explain memory mapped interfacing.
+10.How would you: 1. change some bits of byte to zero 2. change some bits of byte to one 3. toggle some bits of byte (give examples)?
+
